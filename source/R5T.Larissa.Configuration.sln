@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Larissa.Configuration",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Larissa.Configuration.Testing", "R5T.Larissa.Configuration.Testing\R5T.Larissa.Configuration.Testing.csproj", "{32B1310C-837C-4D99-852A-9891C93740C2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{C5E0F45F-50BC-4CD6-87EF-07057FE62C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{B1149066-48F5-4E3B-98E3-490352536FBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{32B1310C-837C-4D99-852A-9891C93740C2}.Release|x64.Build.0 = Release|Any CPU
 		{32B1310C-837C-4D99-852A-9891C93740C2}.Release|x86.ActiveCfg = Release|Any CPU
 		{32B1310C-837C-4D99-852A-9891C93740C2}.Release|x86.Build.0 = Release|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Debug|x64.Build.0 = Debug|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Debug|x86.Build.0 = Debug|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Release|x64.ActiveCfg = Release|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Release|x64.Build.0 = Release|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Release|x86.ActiveCfg = Release|Any CPU
+		{B1149066-48F5-4E3B-98E3-490352536FBD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1149066-48F5-4E3B-98E3-490352536FBD} = {C5E0F45F-50BC-4CD6-87EF-07057FE62C72}
 	EndGlobalSection
 EndGlobal

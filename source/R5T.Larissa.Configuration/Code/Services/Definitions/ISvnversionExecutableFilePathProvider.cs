@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Larissa.Configuration
-{
-    public interface ISvnversionExecutableFilePathProvider
+{[ServiceDefinitionMarker]
+    public interface ISvnversionExecutableFilePathProvider:IServiceDefinition
     {
         string GetSvnversionExecutableFilePath();
     }

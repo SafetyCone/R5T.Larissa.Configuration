@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Larissa.Configuration
-{
-    public interface ISvnConfigurationJsonFilePathProvider
+{[ServiceDefinitionMarker]
+    public interface ISvnConfigurationJsonFilePathProvider:IServiceDefinition
     {
         string GetSvnConfigurationJsonFilePath();
     }
